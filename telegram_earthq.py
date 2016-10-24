@@ -70,6 +70,7 @@ while True:
     elif lasttime != result[0]:
                 lasttime = result[0]
                 bot.sendMessage('18311619', "[지진안내]\n%s\n지역: %s\n진도: %s\n원인: %s" %(result[0], result[1], result[2], result[3]))
+                time.sleep(300)
                 continue
         
     else:
